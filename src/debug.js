@@ -1,8 +1,9 @@
 const myEvery = (arr, callback) => {
-  for (const value of arr) {
-    if (callback) return false;
+  for (value of arr) {
+    if (callback(value) == false)
+      return false
   }
-  return true;
+  return true
 };
 
 const sortUsersBy = (users, sortingCallback) => {
