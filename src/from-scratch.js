@@ -50,17 +50,24 @@ const myMap = (arr, transform) => {
   return newArr
 };
 
-const myFilter = (array, transform) => {
+const myFilter = (array, test) => {
   const newArr = [];
   for (let i = 0; i < array.length; i++) {
-    if (transform(array[i])) {
-      newArr.push(transform)
+    if (test(array[i]) === true) {
+      newArr.push(array[i])
     }
   }
   return newArr
 };
 
-const myFind = () => { };
+const myFind = (arr, test) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (test(arr[i])) {
+      return arr[i]
+    }
+  }
+  return undefined
+};
 
 // Use Array.sort() and provide the correct callback sorting function:
 module.exports = {

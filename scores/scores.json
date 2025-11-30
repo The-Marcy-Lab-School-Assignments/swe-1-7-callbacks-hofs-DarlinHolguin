@@ -2,9 +2,9 @@
   "testScores": {
     "Debug Tests": {
       "DeTe1": 1,
-      "DeTe2": 0,
-      "DeTe3": 0,
-      "DeTe4": 0
+      "DeTe2": 1,
+      "DeTe3": 1,
+      "DeTe4": 1
     },
     "From Scratch Tests": {
       "FrScTe1": 1,
@@ -17,10 +17,10 @@
       "FrScTe8": 1,
       "FrScTe9": 1,
       "FrScTe10": 1,
-      "FrScTe11": 0,
-      "FrScTe12": 0,
-      "FrScTe13": 0,
-      "FrScTe14": 0
+      "FrScTe11": 1,
+      "FrScTe12": 1,
+      "FrScTe13": 1,
+      "FrScTe14": 1
     }
   },
   "idToTestNameHash": {
@@ -64,8 +64,8 @@
     "From Scratch Tests myFind - returns undefined if no element makes the callback return a truthy value": "FrScTe14"
   },
   "humanReadable": {
-    "Debug Tests": "1/4",
-    "finalTestScore": "FINAL SCORE: 11/18",
-    "From Scratch Tests": "10/14"
+    "Debug Tests": "4/4",
+    "finalTestScore": "FINAL SCORE: 18/18",
+    "From Scratch Tests": "14/14"
   }
 }
